@@ -11,10 +11,7 @@ import (
 )
 
 func main() {
-	input, err := aoc.Input(2022, 1)
-	if err != nil {
-		panic(err)
-	}
+	input := aoc.Input(2022, 1)
 
 	elves := elves(input)
 
